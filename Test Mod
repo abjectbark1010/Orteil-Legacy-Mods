@@ -1,4 +1,9 @@
-	new G.Res({
+G.AddData({
+	name:'Test',
+	author:'Bowa',
+	desc:'Test',
+	engineVersion:1,
+new G.Res({
 		name:'Robloxian',
 		desc:'They Never Die, always Respawn',
 		startWith:1000,
@@ -6,3 +11,4 @@
 		partOf:'population',
 		icon:[3,3],
 	});
+});
