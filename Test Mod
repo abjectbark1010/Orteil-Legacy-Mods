@@ -1,4 +1,11 @@
-	new G.Res({
+G.AddData({
+name:'Default dataset',
+author:'Orteil',
+desc:'The default dataset for Legacy.',
+engineVersion:1,
+manifest:0,
+func:function()
+{new G.Res({
 		name:'Robloxian',
 		desc:'They Never Die, always Respawn',
 		startWith:1000,
@@ -6,3 +13,5 @@
 		partOf:'population',
 		icon:[3,3],
 	});
+}
+});
