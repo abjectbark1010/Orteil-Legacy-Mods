@@ -1,0 +1,8 @@
+	new G.Res({
+		name:'Robloxian',
+		desc:'They Never Die, always Respawn',
+		startWith:1000,
+		visible:true,
+		partOf:'population',
+		icon:[3,3],
+	});
